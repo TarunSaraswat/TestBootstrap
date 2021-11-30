@@ -1,0 +1,183 @@
+.div1{
+  background-image: url("bg.jpg");
+  background-position: top;
+    background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+nav a{
+  text-decoration: none;
+  color:white;
+  font-weight: bold;
+}
+
+.navbar-header{
+  font-size: 5vh;
+  color: lightgrey;
+}
+
+.div1Head{
+  color: white;
+  font-size: 10vh;
+}
+
+.div1up{
+  bottom: 0;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 4em;
+  }
+
+.hr1 {
+  border: 0;
+  height: 2px;
+  background-image: linear-gradient(to right, transparent, #CCC, transparent);
+  }
+
+.div1down{
+    bottom: 0;
+    width: 100vw;
+    display: flex;
+    text-align: center;
+    padding-top: 5vh;
+    color: white;
+    font-size: 2em;
+    }
+
+.btn1{
+  text-align: center;
+  padding: 2vh;
+  margin-bottom: 5vh;
+}
+
+
+.div2{
+  background-color: #d61a59;
+}
+
+.div2Head{
+  color: white;
+  font-size: 4em;
+}
+
+.div2up{
+  bottom: 0;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 4em;
+  }
+
+.hr2 {
+  border: 0;
+  height: 2px;
+  background-image: linear-gradient(to right, transparent, #CCC, transparent);
+  }
+
+.div2down{
+    bottom: 0;
+    width: 100vw;
+    display: flex;
+    text-align: center;
+    padding-top: 5vh;
+    color: white;
+    font-size: 2em;
+    }
+
+.btn2{
+  text-align: center;
+  padding: 2vh;
+}
+
+
+
+.hr3 {
+  width:50%;
+  border: 0;
+  height: 2px;
+  background-image: linear-gradient(to right, transparent, #CCC, transparent);
+  }
+
+.serviceHead{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 1vh;
+}
+
+.serviceicon{
+  display: flex;
+  justify-content: space-around;
+}
+
+.service{
+  display: flex;
+  justify-content: space-around;
+  font-size: 2em;
+}
+
+.servicetxt{
+  display: flex;
+  justify-content: space-around;
+  font-size: 1em;
+}
+
+.gallery{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5em;
+}
+
+.row > div {
+  flex: 1;
+  background: lightgrey;
+  border: 1px solid grey;
+  justify-content: space-around;
+  background-color: white;
+}
+
+
+img{
+  width: 400px;
+  height: 280px;
+  object-fit: contain;
+}
+
+.div5
+{
+  margin-top: 5em;
+  align-content: space-around;
+}
+
+.div5down{
+    bottom: 0;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5vh;
+    color: grey;
+    font-size: 1.5em;
+  }
+
+#details{
+  width: 50vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn3{
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer{
+  margin-top: 3vh;
+  width:100vw;
+  height:20vh;
+  background-color: rgba(0, 0, 0, 0.05);
+  font-size: 2em;
+  display: flex;
+  justify-content: center;
+  padding: 4vh;
+}
